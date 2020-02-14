@@ -3,120 +3,141 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Bootcamp Exercise</title>
+  <title>Angela Stevenson's project</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">Angela Stevenson</a>
-      
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Text 1<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Text 2<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Text 3<span class="sr-only">(current)</span></a>
-              </li>
-          </ul>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Angela Stevenson</a>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+            <a class="nav-link" href="index.html">Back to Main Page</a>
+          </li>
+        </ul>
+    </div> 
+</nav>
+<form padding=20px>
+  <div class="form-group row">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Contact Email Address</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="employer@company.com">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputField1" class="col-sm-2 col-form-label">Informational Text</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputField1" placeholder="Enter information here">
+    </div>
+  </div>
+  <fieldset class="form-group">
+    <div class="row">
+      <legend class="col-form-label col-sm-2 pt-0">How did you hear about me?</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+          <label class="form-check-label" for="gridRadios1">
+            LinkedIn
+          </label>
         </div>
-    </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-title">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+          <label class="form-check-label" for="gridRadios2">
+            Glassdoor
+          </label>
         </div>
-        <div class="row"><div class="col">Text</div></div>   
-        <div class="row"><div class="col">Text</div></div>
-        <div class="row"><div class="col">Text</div></div>
-        <div class="row"><div class="col">Text</div></div>
-        <div class="row"><div class="col">Text</div></div>
-        <div class="row"><div class="col">Text</div></div>   
-        <div class="row"><div class="col">Text</div></div>
-        <div class="row"><div class="col">Text</div></div>
-        <div class="row"><div class="col">Text</div></div>
-        <div class="row"><div class="col">Text</div></div>   
-        <div class="row"><div class="col">Text</div></div>
-        <div class="row"><div class="col">Text</div></div>
-        <div class="row"><div class="col">Text</div></div>
-        <div class="row">
-            <div class="col">This is the footer</div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+          <label class="form-check-label" for="gridRadios3">
+            Recruiter
+          </label>
         </div>
-    </div>    
-    <pre>
-      ANGELA M. STEVENSON
- ams42870@me.com • 703-623-2708
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option4">
+          <label class="form-check-label" for="gridRadios4">
+            Other
+          </label>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+  <div class="form-group row">
+    <div class="col-sm-2">Check all that apply</div>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck1">
+        <label class="form-check-label" for="gridCheck1">
+          HTML
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck2">
+        <label class="form-check-label" for="gridCheck2">
+          CSS
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck3">
+        <label class="form-check-label" for="gridCheck3">
+          Javascript
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck4">
+        <label class="form-check-label" for="gridCheck4">
+          XML
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck5">
+        <label class="form-check-label" for="gridCheck5">
+          Oracle
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck6">
+        <label class="form-check-label" for="gridCheck6">
+          MySQL
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
 
-
-COBOL SOFTWARE PROGRAMMER / ENGINEER  
-
-EXPERIENCE
-ATPCO, DULLES, VA 	                                                              2016
-Production Support System Analyst IV 
-•	Responsible for analyzing and identifying root causes for legacy production applications problems 
-•	Worked with Applications Development and other IT Operations technical staff to develop and implement fixes into production
-•	Liaised with customers to inform of progress of issues, request information, managing expectations and close out resolved issues 
-•	Used the following tools/software/code to complete my tasks:  Applications Linux logs, DB2, SQL, Control-M/EM, Splunk, TSO/ISPF, COBOL, JCL, CICS, JIRA
-•	Took complete ownership of production problems and issues anticipating and mitigating risks, escalating issues appropriately and keeping all necessary parties informed, and formulating and implementing management approved work-around often in a critical timeframe
-•	Provided 24-hour coverage and support for all proprietary production applications (shiftwork) 
-•	Responsible for monitoring of production support issues and monitoring the tickets queue and email, logged all relevant tickets, closed all resolved tickets  
-
-COGSDALE		2004 – 2015
-Senior Technical Analyst
-•	Accountable for researching, analyzing, and modifying code for COBOL and C++
-•	Installed new regions for testing and production for Performance Series accounting software
-•	Designed Oracle and SQL Server scripts for clients to resolve issues
-•	Analyzed and developed design documents for 1099 Vendor Processing as mandated by IRS Publication 1220   Accountable for payment processing production problems for all clients which were resolved in one day or less 95% of the time
-•	Interacted with clients directly to resolve installation issues and year-end closing problems in real time.  
-•	Designed, coded and unit tested all code changes in COBOL and C++
-•	Responsible for delivering all patches to clients either via ftp or email
-•	In charge of being the PVCS Administrator 
-•	Presented materials to clients at User Conferences
-•	Worked on cases both as a functional and technical analysis
-•	Assisted the Director of Support in renewal notices for our clients
-
-The Chubb Institute, Reston, VA	                                  	1999 – 2002
-Instructor
-•	Delivered classes in JavaScript, Oracle and Visual Basic, COBOL, SQL and HTML 
-•	Taught logic to students using flowcharts and pseudo-code
-•	Maintained grade and attendance records and served as team lead for case study days
-•	Selected to act as Technology Champion for campus
-•	Mentored students resulting in a 98% pass ratio.
-•	Provided input for enhancements to existing curriculum in order to deliver the most appropriate and up-to-date technical knowledge to students.
-
-Education & Training
-Training in JAVA, Visual Basic, Oracle, HTML, Advanced HTML, C++
-Cloud Computing Concepts (Learning Tree)
-Bachelor of Science in Computer Information Systems, DeVry Institute of Technology
-ITIL Foundation Certification
-
-TECHNICAL 
-	Microsoft Visual C++		PVCS Source Control		Microfocus COBOL
-	HP Unix		Solaris Unix		Oracle
-	SQL Server		Sybase Transact SQL		Java 
-	JavaScript		Microsoft Office		Visual Basic 6
-	HTML		IMS, IMS DB/DC		JCL
-	CICS		MVS		FTP
-	PROEDIT		DB2		VI
-	Windows		IPF		FileAid
-	Informix		FOCUS	
-
-
-    </pre>
 </body>
 
 </html>
