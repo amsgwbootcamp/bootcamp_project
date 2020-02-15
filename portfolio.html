@@ -8,8 +8,19 @@
 
   <title>HTML</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ </head>
+
+
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Bootstrap Demo</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" type="text/css" href="css/reset.css"> 
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
 </head>
 
@@ -27,17 +38,34 @@
           </li>
         </ul>
     </div> 
-</nav>
+  </nav>
+
+ <!-- Creates the Overall Grid -->
+ 
+ <div class="container">
+    <div class="row">
+      <div class="col-4 col-sm-3"><img src="http://placehold.it/200x200" class=" img-fluid img-thumbnail border border-primary" alt="Responsive image"></div>
+      <div class="col-4 col-sm-3"><img src="http://placehold.it/200x200" class="img-fluid img-thumbnail border border-primary" alt="Responsive image"></div>
+      <div class="col-4 col-sm-3"><img src="http://placehold.it/200x200" class="img-fluid img-thumbnail border border-primary" alt="Responsive image"></div>
+  
+      <!-- Force next columns to break to new line -->
+      <div class="w-100"></div>
+        
+      <div class="col-4 col-sm-3"><img src="http://placehold.it/200x200" class="img-fluid img-thumbnail border border-primary" alt="Responsive image"></div>
+      <div class="col-4 col-sm-3"><img src="http://placehold.it/200x200" class="img-fluid img-thumbnail border border-primary" alt="Responsive image"></div>
+      <div class="col-4 col-sm-3"><img src="http://placehold.it/200x200" class="img-fluid img-thumbnail border border-primary" alt="Responsive image"></div>
+    </div>  
+  </div>
 
   <div class="wrapper">
 
-    <section id="main-content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut tellus sed felis consectetur auctor eget non justo. Nunc in laoreet nunc. Quisque accumsan tincidunt neque, at dictum turpis. In hac habitasse platea dictumst. </p>
-    </section>
+  <section id="main-content">
+      <p>There will be some description of what the course will teach us.</p>
+  </section>
 
-    <section id="sidebar">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut tellus sed felis consectetur auctor eget non justo. Nunc in laoreet nunc. Quisque accumsan tincidunt neque, at dictum turpis. In hac habitasse platea dictumst. </p>
-    </section>
+  <section id="sidebar">
+      <p>This is a placeholder as well.</p>
+  </section>
 
   </div>
 
