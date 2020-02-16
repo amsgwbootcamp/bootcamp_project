@@ -1,80 +1,74 @@
-<!-- Media Query Demo (check the CSS page) -->
 <!doctype html>
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <title>Bootstrap Project - Portfolio</title>
-
-  <link rel="stylesheet" type="text/css" href="css/reset.css"> 
-  <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#">Angela Stevenson</a>
+<!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Angela Stevenson</a>
   
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Back to Home Page<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link text-right" href="contact.html ">Contact<span class="sr-only">(current)</span></a>
-          </li>
-      </ul>
-    </div> 
-</nav>
-  </nav>
-  
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Back to Home Page<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-right" href="contact.html ">Contact<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div> 
+    </nav>
+    
  <!-- Creates the Overall Grid -->
- 
- <div class="container">
-    <div class="row">
-      <div class="col-4 col-sm-3 pb-2"><img src="refactoring.png" class="img-fluid img-thumbnail border border-primary" alt="Picture of the refactoring project main page"></div>
-      <div class="col-4 col-sm-3 pb-2"><img src="http://placehold.it/200x100" class="img-fluid img-thumbnail border border-primary" alt="Responsive image"></div>
-      <div class="col-4 col-sm-3 pb-2"><img src="http://placehold.it/200x100" class="img-fluid img-thumbnail border border-primary" alt="Responsive image"></div>
+    <div class="container">
+        <div class="row">
+
+            <!-- Row One -->
+
+            <div class="col-4 col-sm-3 pb-5"></div>
+            <div class="col-4 col-sm-3 pb-5 text-center"><H5>Examples of Our Projects</H5></div>
+            <div class="col-4 col-sm-3 pb-5"></div>
+
+            <!-- Force next columns to break to new line -->  
+        
+            <div class="w-100"></div>
+        
+            <!-- Row Two -->  
+        
+            <div class="col-4 col-sm-3 pb-2"><img src="images/refactoring.png" class="img-fluid img-thumbnail border border-primary" alt="Picture of the refactoring project main page"></div>
+            <div class="col-4 col-sm-3 pb-2"><img src="http://placehold.it/200x100" class="img-fluid img-thumbnail border border-primary" alt="Responsive image"></div>
+            <div class="col-4 col-sm-3 pb-2"><img src="http://placehold.it/200x100" class="img-fluid img-thumbnail border border-primary" alt="Responsive image"></div>
        
-      <!-- Force next columns to break to new line -->
-      <div class="w-100"></div>
-
-      <div class="col-4 col-sm-3 pb-2"><a href="https://amsgwbootcamp.github.io/week_one_homework/index.html">Refactoring Project</a></div>
-      <div class="col-4 col-sm-3 pb-2">Project Placeholder</div>
-      <div class="col-4 col-sm-3 pb-2">Project Placeholder</div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+        
+            <!-- Row Three -->
+            <div class="col-4 col-sm-3 pb-2"><a href="https://amsgwbootcamp.github.io/week_one_homework/index.html">Refactoring Project</a></div>
+            <div class="col-4 col-sm-3 pb-2">Project Placeholder</div>
+            <div class="col-4 col-sm-3 pb-2">Project Placeholder</div>
       
-      <div class="w-100"></div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
 
-      <div class="col-4 col-sm-3 pt-5 pb-2"><img src="http://placehold.it/200x100" class="img-fluid img-thumbnail border border-primary" alt="Responsive image"></div>
-      <div class="col-4 col-sm-3 pt-5 pb-2"><img src="http://placehold.it/200x100" class="img-fluid img-thumbnail border border-primary" alt="Responsive image"></div>
-      <div class="col-4 col-sm-3 pt-5"><img src="http://placehold.it/200x100" class="img-fluid img-thumbnail border border-primary" alt="Responsive image"></div>
+            <!-- Row Four -->
+            <div class="col-4 col-sm-3 pt-5 pb-2"><img src="http://placehold.it/200x100" class="img-fluid img-thumbnail border border-primary" alt="Responsive image"></div>
+            <div class="col-4 col-sm-3 pt-5 pb-2"><img src="http://placehold.it/200x100" class="img-fluid img-thumbnail border border-primary" alt="Responsive image"></div>
+            <div class="col-4 col-sm-3 pt-5 pb-2"><img src="http://placehold.it/200x100" class="img-fluid img-thumbnail border border-primary" alt="Responsive image"></div>
    
-      <div class="w-100"></div>
+            <div class="w-100"></div>
 
-      <div class="col-4 col-sm-3 pb-2">Project Placeholder</div>
-      <div class="col-4 col-sm-3 pb-2">Project Placeholder</div>
-      <div class="col-4 col-sm-3 pb-2">Project Placeholder</div>
+            <!-- Row Five -->
+            <div class="col-4 col-sm-3 pb-2">Project Placeholder</div>
+            <div class="col-4 col-sm-3 pb-2">Project Placeholder</div>
+            <div class="col-4 col-sm-3 pb-2">Project Placeholder</div>
+        </div>  
+    </div>
 
-    </div>  
-  </div>
-
-  <div class="wrapper">
-
-  <section id="main-content">
-      <p>There will be some description of what the course will teach us.</p>
-  </section>
-
-  <section id="sidebar">
-      <p>This is a placeholder as well.</p>
-  </section>
-
-  </div>
-
-</body>
-
+  </body>
 </html>
